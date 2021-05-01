@@ -1,16 +1,36 @@
-### Hi there 👋
-
-<!--
-**VeloOFFICIAL/VeloOFFICIAL** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Algorithm schema](./images/generalbar.png)
+![Algorithm schema](./images/welcometomygithub.png)
+```
+┌────────────────────────────────────┐
+|  VELO.exe                     _ X  |
+┌────────────────────────────────────┐     *—————————————————————————————————————————————————* 
+¦                                    ¦     | Social Media.exe                           _ X  |
+¦ ██▒   █▓▓█████  ██▓     ▒█████     ¦     *—————————————————————————————————————————————————* 
+¦▓██░   █▒▓█   ▀ ▓██▒    ▒██▒  ██▒   ¦     •🌀Youtube: https://www.youtube.com/channel/UCP0tCodhXxyghreM82SxrNQ
+¦ ▓██  █▒░▒███   ▒██░    ▒██░  ██▒   ¦     •🌀Reddit: [Comming Soon]
+¦  ▒██ █░░▒▓█  ▄ ▒██░    ▒██   ██░   ¦     •*—————————————————————————————————————————————————*
+¦   ▒▀█░  ░▒████▒░██████▒░ ████▓▒░   ¦     • ██▒   █▓ ██▓███   ██▀███   ▒█████   ▄▄▄██▀▀▀▓█████  ▄████▄  ▄▄▄█████▓
+¦   ░ ▐░  ░░ ▒░ ░░ ▒░▓  ░░ ▒░▒░▒░    ¦     •▓██░   █▒▓██░  ██▒▓██ ▒ ██▒▒██▒  ██▒   ▒██   ▓█   ▀ ▒██▀ ▀█  ▓  ██▒ ▓▒
+¦   ░ ░░   ░ ░  ░░ ░ ▒  ░  ░ ▒ ▒░    ¦     • ▓██  █▒░▓██░ ██▓▒▓██ ░▄█ ▒▒██░  ██▒   ░██   ▒███   ▒▓█    ▄ ▒ ▓██░ ▒░   
+¦     ░░     ░     ░ ░   ░ ░ ░ ▒     ¦     •  ▒██ █░░▒██▄█▓▒ ▒▒██▀▀█▄  ▒██   ██░▓██▄██▓  ▒▓█  ▄ ▒▓▓▄ ▄██▒░ ▓██▓ ░ 
+¦       ░     ░  ░    ░  ░    ░ ░    ¦     •   ▒▀█░  ▒██▒ ░  ░░██▓ ▒██▒░ ████▓▒░ ▓███▒   ░▒████▒▒ ▓███▀ ░  ▒██▒ ░ 
+¦                                    ¦     •   ░ ▐░  ▒▓▒░ ░  ░░ ▒▓ ░▒▓░░ ▒░▒░▒░  ▒▓▒▒░   ░░ ▒░ ░░ ░▒ ▒  ░  ▒ ░░   
+¦                                    ¦     •   ░ ░░  ░▒ ░       ░▒ ░ ▒░  ░ ▒ ▒░  ▒ ░▒░    ░ ░  ░  ░  ▒       ░    
+¦                                    ¦     •     ░░  ░░         ░░   ░ ░ ░ ░ ▒   ░ ░ ░      ░   ░          ░      
+¦                                    ¦     *———————————————————————————————————————————————————————————*
+└────────────────────────────────────┘     |•VProject.pv Organization 🌀 / Read For More Information!  |
+                                           *———————————————————————————————————————————————————————————*
+```
+![Algorithm schema](./images/info.png)
+* —————————————————————————————————————————————————  •
+* 🔹Name: *Velo*
+* 🔹Age: *?*
+* 🔹Gender: *♂*
+* 🔰Leader/Menager *VProject.pv* 
+* 🏳️**Country:** ****Poland (🇵🇱)****
+* —————————————————————————————————————————————————  •
+### 🔹Programing Leanguages:
+<img align="left" width="25" height="25" src="https://cdn.discordapp.com/attachments/831184974489190430/837999265791213598/py.png">
+<img align="left" width="25" height="25" src="https://cdn.discordapp.com/attachments/831184974489190430/837999266223357962/c.png">
+<img align="left" width="25" height="25" src="https://cdn.discordapp.com/attachments/831184974489190430/837999269373935666/html.png">
+<img align="left" width="25" height="25" src="https://cdn.discordapp.com/attachments/831184974489190430/837999269311021076/js.png">
