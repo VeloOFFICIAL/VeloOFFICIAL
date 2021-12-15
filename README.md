@@ -32,5 +32,4 @@
 ### 🔹Programing Leanguages:
 <img align="left" width="25" height="25" src="https://cdn.discordapp.com/attachments/831184974489190430/837999265791213598/py.png">
 <img align="left" width="25" height="25" src="https://cdn.discordapp.com/attachments/831184974489190430/837999266223357962/c.png">
-<img align="left" width="25" height="25" src="https://cdn.discordapp.com/attachments/831184974489190430/837999269373935666/html.png">
 <img align="left" width="25" height="25" src="https://cdn.discordapp.com/attachments/831184974489190430/837999269311021076/js.png">
