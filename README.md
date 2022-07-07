@@ -1,35 +1,9 @@
-![Algorithm schema](./images/generalbar.png)
-![Algorithm schema](./images/welcometomygithub.png)
-```
-┌────────────────────────────────────┐
-|  VELO.exe                     _ X  |
-┌────────────────────────────────────┐     *—————————————————————————————————————————————————* 
-¦                                    ¦     | Social Media.exe                           _ X  |
-¦ ██▒   █▓▓█████  ██▓     ▒█████     ¦     *—————————————————————————————————————————————————* 
-¦▓██░   █▒▓█   ▀ ▓██▒    ▒██▒  ██▒   ¦     •🌀Youtube: https://www.youtube.com/channel/UCP0tCodhXxyghreM82SxrNQ
-¦ ▓██  █▒░▒███   ▒██░    ▒██░  ██▒   ¦     •🌀Reddit: [Comming Soon]
-¦  ▒██ █░░▒▓█  ▄ ▒██░    ▒██   ██░   ¦     •*—————————————————————————————————————————————————*
-¦   ▒▀█░  ░▒████▒░██████▒░ ████▓▒░   ¦     • ██▒   █▓ ██▓███   ██▀███   ▒█████   ▄▄▄██▀▀▀▓█████  ▄████▄  ▄▄▄█████▓
-¦   ░ ▐░  ░░ ▒░ ░░ ▒░▓  ░░ ▒░▒░▒░    ¦     •▓██░   █▒▓██░  ██▒▓██ ▒ ██▒▒██▒  ██▒   ▒██   ▓█   ▀ ▒██▀ ▀█  ▓  ██▒ ▓▒
-¦   ░ ░░   ░ ░  ░░ ░ ▒  ░  ░ ▒ ▒░    ¦     • ▓██  █▒░▓██░ ██▓▒▓██ ░▄█ ▒▒██░  ██▒   ░██   ▒███   ▒▓█    ▄ ▒ ▓██░ ▒░   
-¦     ░░     ░     ░ ░   ░ ░ ░ ▒     ¦     •  ▒██ █░░▒██▄█▓▒ ▒▒██▀▀█▄  ▒██   ██░▓██▄██▓  ▒▓█  ▄ ▒▓▓▄ ▄██▒░ ▓██▓ ░ 
-¦       ░     ░  ░    ░  ░    ░ ░    ¦     •   ▒▀█░  ▒██▒ ░  ░░██▓ ▒██▒░ ████▓▒░ ▓███▒   ░▒████▒▒ ▓███▀ ░  ▒██▒ ░ 
-¦                                    ¦     •   ░ ▐░  ▒▓▒░ ░  ░░ ▒▓ ░▒▓░░ ▒░▒░▒░  ▒▓▒▒░   ░░ ▒░ ░░ ░▒ ▒  ░  ▒ ░░   
-¦                                    ¦     •   ░ ░░  ░▒ ░       ░▒ ░ ▒░  ░ ▒ ▒░  ▒ ░▒░    ░ ░  ░  ░  ▒       ░    
-¦                                    ¦     •     ░░  ░░         ░░   ░ ░ ░ ░ ▒   ░ ░ ░      ░   ░          ░      
-¦                                    ¦     *———————————————————————————————————————————————————————————*
-└────────────────────────────────────┘     |•VProject.pv Organization 🌀 / Read For More Information!  |
-                                           *———————————————————————————————————————————————————————————*
-```
-![Algorithm schema](./images/info.png)
-* —————————————————————————————————————————————————  •
-* 🔹Name: *Velo*
-* 🔹Age: *?*
-* 🔹Gender: *♂*
-* 🔰Leader/Menager *VProject.pv* 
-* 🏳️**Country:** ****Poland (🇵🇱)****
-* —————————————————————————————————————————————————  •
-### 🔹Programing Leanguages:
-<img align="left" width="25" height="25" src="https://cdn.discordapp.com/attachments/831184974489190430/837999265791213598/py.png">
-<img align="left" width="25" height="25" src="https://cdn.discordapp.com/attachments/831184974489190430/837999266223357962/c.png">
-<img align="left" width="25" height="25" src="https://cdn.discordapp.com/attachments/831184974489190430/837999269311021076/js.png">
+<a>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=VeloOFFICIAL&show_icons=true&theme=radical" />
+</a>
+<a>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VeloOFFICIAL&layout=compact&theme=radical" />
+</a>
+<a>
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=VeloOFFICIAL&repo=VeloOFFICIAL&theme=radical" />
+</a>
