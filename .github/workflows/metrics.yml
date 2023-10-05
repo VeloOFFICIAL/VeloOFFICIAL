@@ -38,14 +38,23 @@ jobs:
           # Configuration
           extras_css: |
             .field svg {
-              fill: #eb6b0e;
+              fill: #777777;
             }
             .field {
-              color: #d67833;
+              color: #777777;
             }
             h1, h2, h3 {
               color: #eb6b0e !important;
             }
+          extras_js: |
+            for (const {a, b} of [
+              {a:"#216e39", b:"#873d07"},
+              {a:"#30a14e", b:"#eb6b0e"},
+              {a:"#40c463", b:"#f78d40"},
+              {a:"#9be9a8", b:"#fcb37e"},
+              {a:"#ebedf0", b:"#fee2d5"},
+            ])
+            document.querySelectorAll(`svg g [fill="${a}"]`).forEach(node => node.setAttribute("fill", b))
       - name: Base ⚡
         uses: lowlighter/metrics@latest
         with:
