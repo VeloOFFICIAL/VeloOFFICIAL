@@ -1,0 +1,185 @@
+name: Metrics
+on:
+  # 🌎 Let's save the planet with rare metrics updates
+  schedule: [{cron: "0 16 * * *"}]
+  push: {branches: ["master", "main"]}
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Core ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/core.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Branches
+          committer_branch: metrics-renders
+          committer_message: "chore: update metrics"
+          output_action: commit
+          # Format
+          config_display: large
+          config_output: svg
+          optimize: svg
+          experimental_features: --optimize-svg
+          # Misc
+          config_timezone: Europe/Warsaw
+          config_animations: yes
+          config_twemoji: yes
+          config_gemoji: yes
+          config_octicon: yes
+          delay: 20
+          retries: 2
+          retries_delay: 800
+          clean_workflows: all
+      - name: Base ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/base.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: header, activity, community, repositories, metadata
+      - name: Achievements ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
+      - name: Recent activity ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/recent_activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_visibility: all
+          plugin_activity_timestamps: no
+          plugin_activity_filter: push, release, review, comment
+      - name: Isometric commit calendar ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/isometric_commit_calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+      - name: Languages activity ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/languages_activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+            gnuplot
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size
+          plugin_languages_limit: 4
+          plugin_languages_analysis_timeout: 15
+      - name: Notable contributions ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/notable_contributions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: ""
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_repositories: no
+          plugin_notable_indepth: no
+          plugin_notable_types: yes
+          plugin_notable_self: no
+      - name: People ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/people.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: ""
+          plugin_people: yes
+          plugin_people_limit:: 10
+          plugin_people_identicons: yes
+          plugin_people_identicons_hide: yes
+          plugin_people_size: 28
+          plugin_people_types: contributors, sponsoring, sponsored, sponsors
+      - name: Comment reactions ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/comment_reactions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_limit: 100
+          plugin_reactions_limit_issues: 100
+          plugin_reactions_limit_discussions: 100
+          plugin_reactions_limit_discussions_comments: 100
+          plugin_reactions_display: relative
+          plugin_reactions_details: percentage
+      - name: Featured repositories ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/featured_repositories.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_featured: lowlighter/metrics
+          plugin_repositories_order: featured, pinned, starred, random
+          plugin_repositories_forks: no
+          plugin_repositories_affiliations: owner, collaborator, organization_member
+      - name: Stargazers ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/stargazers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: ""
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: graph
+      - name: Starred topics ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/starred_topics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 12
+          plugin_topics_mode: icons
+      - name: Repositories traffic ⚡
+        uses: lowlighter/metrics@latest
+        with:
+          # Metrics
+          filename: render/repositories_traffic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Configuration
+          base: repositories
+          plugin_traffic: yes
