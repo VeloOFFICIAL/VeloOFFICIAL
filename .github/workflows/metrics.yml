@@ -35,6 +35,17 @@ jobs:
           retries: 2
           retries_delay: 800
           clean_workflows: all
+          # Configuration
+          extras_css: |
+            .field svg {
+              fill: #eb6b0e;
+            }
+            .field {
+              color: #d67833;
+            }
+            h1, h2, h3 {
+              color: #eb6b0e !important;
+            }
       - name: Base ⚡
         uses: lowlighter/metrics@latest
         with:
