@@ -3,6 +3,11 @@
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
+## 🧠 Skills
+* [Frontend](https://pl.wikipedia.org/wiki/Front-end_i_back-end) `👑 very good`
+* [Backend](https://pl.wikipedia.org/wiki/Front-end_i_back-end) `✅ good`
+* [DevOps](https://pl.wikipedia.org/wiki/DevOps) `📖 learning but good level`
+
 ## 📦 Projects
 Projects I have created or participated in.
   * [🧰 WMU HUB <sub>`SERVICES`</sub>](https://wmu-hub.pl)
