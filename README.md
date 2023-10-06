@@ -74,7 +74,7 @@ and receive feedback on skills.
   <a href="https://www.nginx.com">
    <img width="45" height="45" alt="nginx" src="/icons/icon_nginx.png" />
   </a>
-  <a href="https://grafana.com/>
+ <a href="https://grafana.com">
    <img width="45" height="45" alt="grafana" src="/icons/icon_grafana.png" />
   </a>
   
