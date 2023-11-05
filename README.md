@@ -13,7 +13,7 @@ Projects I have created or participated in.
   * [🧰 WMU HUB <sub>`SERVICES`</sub>](https://wmu-hub.pl)
 
 ## ⚗️ Frontend Mentor
-Weekly projects from frontend mentor, inserted to improve work with code<br />
+Projects from frontend mentor, inserted to improve work with code<br />
 and receive feedback on skills.
   * [📱📷🏁 QR code component <sub>`NEWBIE`</sub>](https://github.com/VeloOFFICIAL/frontend-mentor-qr-code-component) `06.10.2023`
 
