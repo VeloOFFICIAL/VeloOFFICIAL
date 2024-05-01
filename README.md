@@ -1,8 +1,3 @@
-<img align="left" width="380" alt="base" src="/render/base.svg">
-<img align="right" width="380" alt="isometric_commit_calendar" src="/render/isometric_commit_calendar.svg">
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
 ## 🧠 Skills
 * [Frontend](https://pl.wikipedia.org/wiki/Front-end_i_back-end) `👑 very good`
 * [Backend](https://pl.wikipedia.org/wiki/Front-end_i_back-end) `✅ good`
